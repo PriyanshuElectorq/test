@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this package is for testing purpose",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "test"
   },
