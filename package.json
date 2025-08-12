@@ -1,0 +1,19 @@
+{
+  "name": "baaz-test",
+  "version": "1.0.0",
+  "description": "this package is for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyanshuElectorq/test.git"
+  },
+  "author": "priyanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyanshuElectorq/test/issues"
+  },
+  "homepage": "https://github.com/PriyanshuElectorq/test#readme"
+}
