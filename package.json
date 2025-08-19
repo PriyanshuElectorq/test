@@ -2,10 +2,12 @@
   "name": "baaz-test",
   "version": "1.0.0",
   "description": "this package is for testing purpose",
-  "main": "index.js",
-  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/PriyanshuElectorq/test/issues"
   },
-  "homepage": "https://github.com/PriyanshuElectorq/test#readme"
+  "homepage": "https://github.com/PriyanshuElectorq/test#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  }
 }
